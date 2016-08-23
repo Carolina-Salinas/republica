@@ -1,0 +1,441 @@
+body {
+  font-family: "PT Sans";
+}
+
+a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+button {
+  background-color: #F4F5F7;
+  border: none;
+}
+
+.plomo {
+  background-color: #F4F5F7;
+}
+
+.plomo-dos {
+  padding-top: 7px;
+  color: #aaa;
+}
+
+.plomo-dos .fa {
+  font-size: 20px;
+}
+
+.plomo-dos i {
+  margin-top: 5px;
+}
+
+.plomo-dos .fa-facebook {
+  color: #073A9F;
+}
+
+.plomo-dos .fa-twitter {
+  color: #1BBECA;
+}
+
+.plomo-dos .fa-google-plus {
+  color: #CA1B3E;
+}
+
+.plomo-dos .fa-envelope {
+  color: #EDA42E;
+}
+
+.plomo-dos .fa-rss {
+  color: #FC8524;
+}
+
+.separador {
+  margin-left: 5px;
+}
+
+.blanco .logo {
+  margin: 35px 50px;
+}
+
+.blanco-dos {
+  padding: 10px 45px;
+}
+
+.blanco-dos .flot {
+  z-index: 1;
+  position: absolute;
+  left: 150px;
+}
+
+.blanco-dos .flot h5 {
+  border: 1px solid #BA1414;
+  background-color: #BA1414;
+  color: #fff;
+  padding: 3px;
+}
+
+.blanco-dos .estatico {
+  border: 1px solid #aaa;
+  margin-top: 25px;
+  padding: 20px 10px 10px;
+  width: 300px;
+  border-bottom: 2px solid #BA1414;
+}
+
+.blanco-tres .author {
+  background-color: #000;
+  padding-left: 20px;
+  width: 280px;
+  margin-top: 30px;
+}
+
+.blanco-tres .redondeado {
+  background-image: url(../image/img_author.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  -webkit-border-top-left-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  background-color: #fff;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  width: 270px;
+  height: 70px;
+  padding: 10px 0 10px 20px;
+}
+
+.blanco-tres img {
+  height: 95px;
+}
+
+.rojo {
+  background-color: #BA1414;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.rojo a {
+  color: #fff;
+}
+
+.plomo-rojo ul {
+  margin-bottom: 0;
+}
+
+.plomo-rojo a {
+  color: #000;
+  margin-bottom: 0px;
+}
+
+.plomo-rojo i {
+  color: #aaa;
+}
+
+.plomo-rojo .tema {
+  background-color: #000;
+  color: #fff;
+  margin-left: -25px;
+}
+
+.maestria {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.primer-titular h1 {
+  font-size: 5em;
+}
+
+.redes-tiempo .fa {
+  font-size: 15px;
+}
+
+.redes-tiempo .fa-facebook {
+  color: #073A9F;
+}
+
+.redes-tiempo .fa-twitter {
+  color: #1BBECA;
+}
+
+.redes-tiempo .fa-google-plus {
+  color: #CA1B3E;
+}
+
+.redes-tiempo i {
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  width: 20px;
+}
+
+.redes-tiempo .azul {
+  border-bottom: 3px solid #073A9F;
+}
+
+.redes-tiempo .celeste {
+  border-bottom: 3px solid #1BBECA;
+}
+
+.redes-tiempo .rojito {
+  border-bottom: 3px solid #CA1B3E;
+}
+
+.titulares .grande {
+  padding-left: 0;
+  -webkit-filter: brightness(80%);
+  padding-left: 0;
+}
+
+.titulares .grande h4 {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.titulares .texto-grande {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.titulares .peques .texto {
+  -webkit-filter: brightness(80%);
+}
+
+.titulares .peques .flot-texto {
+  z-index: 1;
+  position: absolute;
+  bottom: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.columnistas {
+  margin-top: 20px;
+}
+
+.columnistas .flot {
+  z-index: 1;
+  position: absolute;
+  left: 550px;
+}
+
+.columnistas .flot h4 {
+  border: 1px solid #BA1414;
+  background-color: #BA1414;
+  color: #fff;
+  padding: 3px;
+}
+
+.columnistas .col-md-2 {
+  background-color: #F4F5F7;
+  border-top: 4px solid #BA1414;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.columnistas img {
+  height: 100px;
+  margin: 20px 55px;
+}
+
+.bajo-colum {
+  text-align: center;
+}
+
+.bajo-colum h4 {
+  color: #BA1414;
+  font-weight: bold;
+}
+
+.bajo-colum .otro {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.bajo-colum .banner-derecho {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.news > h4 {
+  color: #aaa;
+  font-family: "Oswald";
+}
+
+.news > img {
+  margin: -0.8% auto auto 1%;
+}
+
+.news .list-news > h4 {
+  font-weight: bold;
+}
+
+.news .list-news > p {
+  font-size: 12px;
+}
+
+.news .list-news hr {
+  border: 0.8px solid #eee;
+}
+
+.suscribirse input {
+  width: 80%;
+}
+
+.suscribirse button {
+  width: 80%;
+  background: #BA1414;
+  color: #FFF;
+  margin: 3% auto;
+}
+
+.fondo-trama {
+  background: url(../image/trama_square.jpg);
+}
+
+.fondo-trama > img {
+  width: 18%;
+  top: 4%;
+  left: 40%;
+}
+
+.fondo-trama h4 {
+  font-weight: bold;
+}
+
+.container-blanco {
+  background: #FFF;
+}
+
+.img-p {
+  border: 1px solid #eee;
+}
+
+.img-p .row {
+  margin: 2% 0;
+}
+
+.img-p .col-xs-7 p {
+  margin-bottom: 1%;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.img-text-ab p {
+  width: 94%;
+  left: 1%;
+  bottom: 1%;
+  font-weight: bold;
+  background: #eee;
+}
+
+.titulo-secciones {
+  border-top: 5px solid gray;
+  margin: 15% auto;
+}
+
+.titulo-secciones h4 {
+  background: gray;
+  color: #FFF;
+  top: -12px;
+  left: 20%;
+  right: 20%;
+  font-family: "Oswald";
+  font-size: 1.5em;
+}
+
+.nuestros-blogueros a {
+  margin-left: 0;
+  color: #888;
+}
+
+.nuestros-blogueros p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.more {
+  color: red;
+  font-weight: bold;
+}
+
+.caricatura-del-dia h4 {
+  font-weight: bold;
+}
+
+.edicion-impresa a {
+  color: red;
+}
+
+.preguntas button {
+  background: #BA1414;
+  color: #FFF;
+  margin: 3% auto;
+  width: 40%;
+}
+
+.preguntas a {
+  color: red;
+}
+
+.reportero button {
+  background: #BA1414;
+  color: #FFF;
+  margin: 3% auto;
+  width: 40%;
+}
+
+.reportero a {
+  color: red;
+}
+
+.footer {
+  background-color: #DEDEDE;
+}
+
+.listapet {
+  font-size: 12px;
+}
+
+.listapet a {
+  text-decoration: none;
+  color: #333;
+  list-style: none;
+}
+
+.social {
+  margin-top: 25%;
+}
+
+.social_media img {
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.social ul {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.social h3 {
+  font-weight: bold;
+}
+
+.social p {
+  line-height: 1em;
+}
+
+.social li {
+  font-size: 16px;
+}

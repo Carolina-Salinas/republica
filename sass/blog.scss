@@ -1,0 +1,37 @@
+// *{outline:1px solid red;}
+// Variables
+	
+// header
+	@import '../sass/import/header';
+// contenido
+$letra_news:
+	"oswald";
+$color_gray:"#aaa";
+.blog-new>h4{color:$color_gray;font-family:$letra_news;}
+.blog-new>img{margin:-0.8% auto auto 1%;}
+
+.blog{
+	padding: 10px 20px;
+	// border: 2px solid #aaa;
+	// margin-right: 10px;
+}
+.contenido-blog{
+	height: 100px;
+	padding: 5px 10px;
+	text-align: justify;
+	margin-bottom: 50px;
+	p{
+		margin-top: 20px;
+	}
+	h3{
+		margin-top: 15px;
+	}
+}
+.abajo-imagen{
+	background-color: #E2E6E9;
+	height: 90px;
+	padding: 10px;
+}
+
+// FOOTER(R)
+	@import '../sass/import/footer';

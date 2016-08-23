@@ -1,0 +1,59 @@
+// *{outline:1px solid red;}
+// Variables
+	
+// header
+	@import '../sass/import/header';
+
+// All
+$letra_news:
+	"oswald";
+$color_gray:"#aaa";
+
+
+.blog{
+	padding: 10px 20px;
+}
+.contenido-blog{
+	height: 100px;
+	padding: 5px 10px;
+	text-align: justify;
+	margin-bottom: 50px;
+	p{
+		margin-top: 20px;
+		font-family: $letra_news;
+	}
+	h3{
+		margin-top: 15px;
+		font-family: $letra_news;
+	}
+}
+
+.columnistas h4{
+	font-family: $letra_news;
+}
+.abajo-imagen{
+	background-color: #E2E6E9;
+	height: 90px;
+	padding: 10px;
+}
+.columnistas-imagen{
+	background-color: #E2E6E9;
+	width: 280px;
+	// margin-left: -30px;
+	// margin-right: 50px;
+}
+.barra-columnistas{
+	background-color: #CA1B3E;
+	li{
+		background-color: #DF0101;
+		padding: 3px 5px;
+		border-radius: 10px;
+		margin: 10px 10px;
+	}
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+}
+// FOOTER(R)
+	@import '../sass/import/footer';
